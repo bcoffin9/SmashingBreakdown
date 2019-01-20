@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Smashing Magazine</title>
+    <style type='text/css' media='screen'>
+        .content {
+            flex-wrap: wrap;
+            display: flex;
+            height: 1500px;
+        }
+
+        .wrote {
+            height: 60px;
+            width: 60%;
+            margin-bottom: 40px;
+            background-color: hsl(0, 0%, 30%);
+        }
+
+        .story {
+            box-sizing: border-box;
+            width: 50%;
+            border-right: 10px solid black;
+            border-bottom: 10px solid black;
+            text-align: center;
+            padding-top: 15%;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+
+        .story>h2 {
+            border: 3px solid black;
+        }
+
+        #main {
+            position: relative;
+            height: 1200px;
+        }
+
+        #popup {
+            background-color: white;
+            color: black;
+            font-weight: bold;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%);
+            margin-top: 20px;
+        }
+
+        .logo {
+            display: inline-block;
+        }
+
+        li {
+            display: inline-block;
+            height: 100px;
+            width: 120px;
+            margin-right: 20px;
+            background-color: hsl(0, 0%, 65%);
+        }
+
+        .tags {
+            display: flex;
+        }
+
+        .tags>div {
+            display: inline-block;
+            width: 280px;
+            height: 30px;
+            margin-right: 10px;
+            background-color: hsl(0, 0%, 30%);
+        }
+
+        #one {
+            background-color: hsl(0, 0%, 50%);
+        }
+
+        #two {
+            background-color: lightgrey;
+        }
+        #two>.art-title {
+            height: 180px;
+        }
+        #three {
+            background-color: darkgrey;
+        }
+
+        #four {
+            background-color: hsl(0, 0%, 50%);
+        }
+
+        .art-title {
+            background-color: black;
+            height: 260px;
+            margin-bottom: 50px;
+        }
+
+        body {
+            background-color: hsl(0, 0%, 85%);
+        }
+
+        header {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        header>div {
+            align-items: center;
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+        }
+
+        .search {
+            height: 40px;
+            width: 120px;
+            background-color: hsl(0, 0%, 75%);
+        }
+    </style>
+</head>
+
+<body>
+    <header class='main-header'>
+        <div>
+            <h1 class='logo'>Logo</h1>
+            <li>
+
+            </li>
+            <li>
+
+            </li>
+            <li>
+
+            </li>
+            <li>
+
+            </li>
+            <li>
+
+            </li>
+            <div class='search'></div>
+
+        </div>
+
+    </header>
+    <main id='main'>
+        <h1>
+            <span id='popup'>Don't Miss These Latest Articles</span>
+        </h1>
+        <div class='content'>
+            <article class='story' id='one'>
+                <div class='wrote'></div>
+                <div class='art-title'></div>
+                <div class='tags'>
+                    <div></div>
+                </div>
+
+
+            </article>
+            <article class='story' id='two'>
+                <div class='wrote'></div>
+                <div class='art-title'></div>
+                <div class='tags'>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </article>
+            <article class='story' id='three'>
+                <div class='wrote'></div>
+                <div class='art-title'></div>
+                <div class='tags'>
+                    <div></div>
+                </div>
+            </article>
+            <article class='story' id='four'>
+                <div class='wrote'></div>
+                <div class='art-title'></div>
+                <div class='tags'>
+                    <div></div>
+                    <div></div>
+                </div>
+            </article>
+        </div>
+        <footer class='main-footer'></footer>
+    </main>
+</body>
+
+</html>
